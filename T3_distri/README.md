@@ -3,6 +3,7 @@ ESTE README ESTA DISEÑADO PARA EXPLICAR CADA PARTE DE LA CARPETA T3_DISTRI PARA
 Archivos:
 base.db -> base de datos de part-00000.txt, contiene todas las palabras de las paginas de la wiki con su respectivo n° de documento
 
+
 base.py -> codigo que se utiliza para crear la base.db
 
 buscador.py -> se usa para buscar dentro de la base.db la palabra clave que queramos, nos retorna los 5 mejores resultados segun frecuencia en las paginas
