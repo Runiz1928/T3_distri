@@ -2,12 +2,19 @@ ESTE README ESTA DISEÑADO PARA EXPLICAR CADA PARTE DE LA CARPETA T3_DISTRI PARA
 
 Archivos:
 base.db -> base de datos de part-00000.txt, contiene todas las palabras de las paginas de la wiki con su respectivo n° de documento
+
 base.py -> codigo que se utiliza para crear la base.db
+
 buscador.py -> se usa para buscar dentro de la base.db la palabra clave que queramos, nos retorna los 5 mejores resultados segun frecuencia en las paginas
+
 documentos.py -> se usa wrapper de wiki para buscar las 30 paginas de wiki y guardarlas en carpeta1 y carpeta2.
+
 mapper.py y reducer.py -> MapReducer normal sin index inverso
+
 mapper1.py y reducer1.py -> MapReducer con index inverso, es lo mismo que se utiliza en la carpeta de hadoop.
+
 part-00000.txt -> archivo con todos los datos de frecuencia y n° de documento de documentos.py (es lo que retorna hadoop al terminar).
+
 
 
 Comandos:
